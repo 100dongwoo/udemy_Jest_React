@@ -22,12 +22,14 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/color-button/node_modules
 
 /.idea
 
+/color-button/node_modules
 /color-button/.vscode
 /color-button/.eslintrc.json
 
 
 /sundaes-on-demand/node_modules
+/sundaes-on-demand/.vscode
+/sundaes-on-demand/.eslintrc.json
