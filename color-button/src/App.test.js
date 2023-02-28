@@ -1,8 +1,8 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import App, { replaceCamelWithSpaces } from "./App";
-import { logRoles } from "@testing-library/dom";
+import { logRoles } from "@testing-library/react";
 
-test("button has correct initial color ", () => {
+test("button has correct initial color", () => {
   // const { container } = render(<App />);
   // logRoles(container);
 
@@ -22,7 +22,7 @@ test("button has correct initial color ", () => {
   expect(colorButton).toHaveStyle({ backgroundColor: "MidnightBlue" });
 
   //  expect the background color to be blue
-  expect(colorButton.textContent).toBe("Change to Medium Violet Red");
+  expect(colorButton).toHaveTextContent("Change to Medium Violet Red");
 });
 
 // test("button turns blue when clicked", () => {
