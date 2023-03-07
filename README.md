@@ -42,3 +42,4 @@
 
 ## Ch3
 - https://mswjs.io/docs/getting-started/integrate/node
+- 일반적으로 비동기필요시 await 와 findAllRole 사용해야함
