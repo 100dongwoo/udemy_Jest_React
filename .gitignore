@@ -29,7 +29,9 @@ yarn-error.log*
 /color-button/.vscode
 /color-button/.eslintrc.json
 
-
 /sundaes-on-demand/node_modules
 /sundaes-on-demand/.vscode
 /sundaes-on-demand/.eslintrc.json
+
+/sundae-server/node_modules
+
