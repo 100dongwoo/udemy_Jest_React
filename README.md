@@ -43,3 +43,10 @@
 ## Ch3
 - https://mswjs.io/docs/getting-started/integrate/node
 - 일반적으로 비동기필요시 await 와 findAllRole 사용해야함
+- 파일여러개 일경우 test.only or test.skip
+
+#### findBy
+- 첫 번째 서버 호출이 반환됐을 때 성공.
+
+#### waitFor
+- 2개이상 모두 기다리는 경우 사용
